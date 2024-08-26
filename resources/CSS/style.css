@@ -1,6 +1,99 @@
 /* CSS for desktop and bigger screen devices*/
 
-body {
+/* css variables*/
+
+/*
+:root {
+--primary-color: #......;
+
+
+} */
+/* end of varibales*/
+
+html {
+   /* scroll-behavior: smooth;*/
+}
+
+/* css resets and general styles*/
+* {
     margin: 0;
     padding: 0;
+    font-family: Roboto;
 }
+
+
+a {
+    
+    /*color: set to primary color?*/
+}
+
+/*a:hover {
+    color: set to secondary color?
+}*/
+
+h1 {
+    font-family: "Patrick Hand";
+    font-size: 52px;
+    text-transform: uppercase;
+    color: mediumseagreen;
+}
+
+
+
+
+/*      Header and Navigation   */
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: darksalmon;
+    border: 2px darksalmon solid
+}
+
+.navbar h1 {
+    color: darksalmon;
+
+    
+}
+.navbar a {
+    color: darksalmon;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navlist {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5em;
+}
+
+
+
+/*      Intro (Hero) Section    */
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*      About Section           */
+
+
+
+
+/*      Skills Section          */
+
+
+
+
+/*      Projects Section        */
+
+
+
+
+/*      Footer Section          */ 
