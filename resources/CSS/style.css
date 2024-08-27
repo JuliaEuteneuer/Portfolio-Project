@@ -11,14 +11,18 @@
 /* end of varibales*/
 
 html {
-   /* scroll-behavior: smooth;*/
+   scroll-behavior: smooth;
 }
 
 /* css resets and general styles*/
 * {
     margin: 0;
     padding: 0;
+}
+    
+body {
     font-family: Roboto;
+    color: darkslategray;
 }
 
 
@@ -33,67 +37,116 @@ a {
 
 h1 {
     font-family: "Patrick Hand";
-    font-size: 52px;
-    text-transform: uppercase;
-    color: mediumseagreen;
+    font-size: 58px;
+    /*color: mediumseagreen*/
+    /*what about darksegreen?? and black?*/
+    
 }
 
+h2 {
+    font-size: 36px; 
+    padding: 12px;
+}
 
-
+h3 {
+    font-size: 24px;
+    padding: 8px;
+}
 
 /*      Header and Navigation   */
 
 
 .navbar {
+
     display: flex;
-    align-items: center;
+    align-items:first center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 22px 48px;
     color: darksalmon;
     border: 2px darksalmon solid
 }
 
 .navbar h1 {
     color: darksalmon;
-
+    font-size: 48px;
     
 }
 .navbar a {
     color: darksalmon;
     text-decoration: none;
     font-weight: 500;
+    font-size: 18px;
 }
 
 .navlist {
     display: flex;
     list-style-type: none;
-    gap: 1.5em;
+    gap: 1.9rem;
 }
 
-
+.hamburger {
+    font-size: 25px;
+}
 
 /*      Intro (Hero) Section    */
 
 .intro {
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-around;
+    text-align: center;
+}
+
+.intro h1 {
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 0.8;
+    padding: 8px;
+}
+
+.intro h2 {
+    line-height: 0.9;
+}
+
+
+/*      Skills Section          */
+
+.skills {
+    background-color: darksalmon;
+    text-align: center;
+    margin: 20px;
+    min-height: 700px;
 }
 
 
 /*      About Section           */
 
-
-
-
-/*      Skills Section          */
-
+.about {
+    margin: 20px;
+    min-height: 700px;}
+ 
 
 
 
 /*      Projects Section        */
+.projects {
+    background-color: mediumseagreen;
+    color: white;
 
+}
+
+
+/*      Contact Section         */
+     /*white background*/
 
 
 
 /*      Footer Section          */ 
+
+footer {
+    background-color:mediumseagreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}

@@ -9,6 +9,7 @@
     <link href="resources/CSS/style.css" rel="stylesheet" type="text/css">
     <link href="resources/CSS/responsive.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d38ed50409.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,13 +19,19 @@
         <nav class="navbar">
             <div>
                 <h1>Julia Euteneuer</h1>
+                
             </div>
             <ul class="navlist">
-                <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-cat"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
         </nav>
     </header>
 
@@ -37,18 +44,24 @@
             <img src="resources/images/julia_web-developer_600px.png" alt="developer girl with kitten">
         </div>
         <div class="intro-text">
-            <h1>Hey, I'm Julia</h1>
-            <h3>and I am on my way to becoming a developer</h3>
+            <h1>Hey, I'm Julia  <i class="fa-solid fa-cat"></i></h1>
+            <h3>and I am on my way to becoming </h3>
+            <h2>a web designer and developer</h2>
         </div>
     </section>
 
 
-    <!----- About section ----->
-    <section id="about"></section>
-
 
     <!----- Skills section ----->
-    <section id="skills"></section>
+    <section id="skills" class="skills">
+        <h1>My Skills</h1>
+    </section>
+
+
+    <!----- About section ----->
+    <section id="about" class="about">
+        <h1>About me</h1>
+    </section>
 
 
     <!----- Projects section ----->
@@ -66,6 +79,11 @@
     <!----- Footer section ----->
 
     <footer class="footer">
+    <div>
+        <p>&copy; Copyright 2024 </p>
+        <p>Made with &#x2661; by Julia</p>
+    </div>
+
 
     </footer>
 
