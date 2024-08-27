@@ -61,7 +61,7 @@ h3 {
     display: flex;
     align-items:first center;
     justify-content: space-between;
-    padding: 22px 48px;
+    padding: 22px 22px 22px 100px;
     color: darksalmon;
     border: 2px darksalmon solid
 }
@@ -92,9 +92,14 @@ h3 {
 
 .intro {
     display: flex;
-    align-items:center;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    gap: 48px;
+}
+
+.intro-text {
+    margin-top: 48px;
 }
 
 .intro h1 {
@@ -108,6 +113,23 @@ h3 {
     line-height: 0.9;
 }
 
+.intro-btn {
+    padding: 12px 28px;
+    margin: 18px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: darkslategray;
+}
+
+.intro-btn:hover {
+    background-color: rgb(227, 121, 86); 
+    /*bit darker than salmon, try out different shades*/
+    color: white;
+    font-size: 18px;
+}
+
 
 /*      Skills Section          */
 
@@ -115,16 +137,42 @@ h3 {
     background-color: darksalmon;
     text-align: center;
     margin: 20px;
+    padding: 20px;
     min-height: 700px;
 }
 
+.skill-container {
+    display: flex;
+}
 
+.skill-card {
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    width: 30%;
+}
+
+.skill-card ul {
+    list-style-type:circle;
+    
+}
 /*      About Section           */
 
 .about {
     margin: 20px;
-    min-height: 700px;}
- 
+    padding: 20px;
+    min-height: 700px;
+}
+
+.about h2 {
+    color: mediumseagreen;
+}
+
+.about-mindfulness {
+    justify-self: center;
+    text-align: center;
+    padding: 20px 100px;
+}
 
 
 
@@ -149,4 +197,15 @@ footer {
     text-align: center;
     padding: 20px;
 
+}
+
+/*      Scroll-to-Top Icon      */
+
+.scroll-up {
+    position: fixed;
+    right: 2.5%;
+    bottom: 3%;
+    cursor: pointer;
+    font-size: 32px;
+    opacity: 0.8;
 }
