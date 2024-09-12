@@ -1,5 +1,41 @@
-/* responsive CSS for smaller width devices*/
+/* responsive CSS for smaller width devices (PLAY WITH BREAKPOINTS IN YOUR DESIGN*/
 
-/*CSS for tablet devices (576-820px??) */
+/*CSS for tablet devices (576-820px?? or just max 720px??) */
 
-/*CSS for mobile devices (280-576px ??)*/
+@media only screen and (max-width: 768px) {
+
+h1 
+h2 
+h3  
+    
+
+/*      Header and Navigation   */
+.navbar h1 {
+    font-size: 32px;
+}
+
+.hamburger {
+    display: block;
+}
+
+.navlist {
+    display: none;
+}
+
+
+
+}
+
+/*CSS for mobile devices (280-576px ?? or just max 420??)*/
+
+@media only screen and (max-width: 480px) {
+    
+
+
+
+
+
+
+
+
+}

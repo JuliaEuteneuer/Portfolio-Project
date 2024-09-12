@@ -21,6 +21,8 @@ html {
 }
     
 body {
+   
+   /* box-sizing: border-box*/
     font-family: Roboto;
     color: darkslategray;
 }
@@ -51,6 +53,11 @@ h2 {
 h3 {
     font-size: 24px;
     padding: 8px;
+}
+
+p {
+    font-size: 18px;
+    color: slategray;
 }
 
 /*      Header and Navigation   */
@@ -85,6 +92,7 @@ h3 {
 }
 
 .hamburger {
+    display: none;
     font-size: 25px;
 }
 
@@ -149,11 +157,14 @@ h3 {
     background-color: white;
     border-radius: 20px;
     margin: 20px;
+    padding: 8px;
     width: 30%;
 }
 
 .skill-card ul {
-    list-style-type:circle;
+    list-style-type: none;
+    color: slategray;
+    font-size: 18px;
     
 }
 /*      About Section           */
